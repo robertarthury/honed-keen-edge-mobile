@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Staatliches', sans-serif;
+  }
+nav {position:sticky}
+#home {
+    background-image: url('../images/nav-bar.png');
+    height: 600px;
+    background-size:cover;
+    background-position:right;
+    position: relative;
+    text-align:right;
+  }
+
+#shaving-sharp {
+    background-image: url('../images/stretch-wood.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+#send-in-service {
+    background-image: url('../images/sharpies.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+#pop-up-shop {
+    background-image: url('../images/four-edc.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  #navbar-div {
+    background-image: url('../images/nav-bar.png'); 
+  }
