@@ -43,7 +43,8 @@
         </nav>
     </header>   
     <main>
-        <section id="home" class="m-5m p-5">
+        <section id="home" class="m-5 p-5">
+          <div class="flex-row">
             <h1>Sharpie's Artisan Knife Sharpening</h1>
             <h2> Tis the Golden Age of Steel</h2>
             <ul>
@@ -74,6 +75,7 @@
                 his<br/>
                 biscuts<br/>
             </h4>
+          </div>
         </section>
         <section id= "shaving-sharp" class="hero">
                 <!-- 2.1 - Added call to action (CTA) -->
@@ -116,34 +118,36 @@
         <section id="pop-up-shop">
     
         </section>
-        <section id="mobile-service" class="hero-cta">
-            <div>
-                <h3>I'll Come to You</h3>
-                <p>5 knife minimum for traveling service.</p>
-                <form class="hero-form">
-                  <label for="name">Your Name</label>
-                  <input type="text" id="name" placeholder="Your Name" name="name" class="form-input" />
-          
-                  <label for="email">Your Email</label>
-                  <input type="email" id="email" placeholder="Email Address" name="email" class="form-input" />
-          
-                  <label for="phone">Phone Number</label>
-                  <input type="tel" id="phone" placeholder="Phone Number" name="phone" class="form-input" />
-           
+        <section>
+            <div id="mobile-service" class="m-5 p-5 hero-cta flex-row">
+              <h3>I'll Come to You</h3>
+              <p>
+                5 knife minimum for traveling service.
+              </p>
+              <div class="m-5 p-5">
+                <form class="hero-form m-5 p-5">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Name" name="name" class="form-input" />
+            
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Email" name="email" class="form-input" />
+            
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" placeholder="Phone" name="phone" class="form-input" />
+             
                   <button type="submit" class="form-submit">
-                    submit
+                      submit
                   </button>
                 </form>
               </div>
+            </div>
         </section>
     </main>
-</footer>
 <footer id="contact-me" class="bg-dark text-center text-white">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
       <section class="mb-4">
-        <!-- Facebook -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100083578014245" role="button"
           ><i class="fab fa-facebook-f"></i
         ></a>
@@ -163,6 +167,7 @@
       </section>
       <!-- Section: Social media -->
     </div>
+ </footer>
     <!-- Grid container -->
   
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
